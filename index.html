@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar-section" id="navbar-section">
+    <div class="navbar">
+        <div class="nav-1"><span id="flipkart">Flipkart</div>
+        <div class="explore-plus">
+        <span id="explore">Explore</span><span id="plus">Plus</span>
+        <img src="img/plus.png" style="height:15px;width:15px;margin-left: 2px;">
+        </div></div>
+        <div class="searchbar"><img src="img/search.png" id="search-img"><input type="name" id="input" placeholder="Search for Products,Brands and More"></div>
+        <div class="login"><a><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" alt="login" id="login-img"><a href="login.html">Login</a></a></div>
+        <div class="cart"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" alt="cart-img" height="25px" width="25px" margin-top="10px"><a href="cart.html">Cart</a></div>
+        <div class="seller"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="seller-img" id="seller-img"><a href="https://seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect">Become a seller</a></div>
+    </div></div>
+    <div class="menu-section">
+      <span id="grocery">
+      <img src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100" alt="grocery"></a><h5>Grocery</h5></span>
+      <span id="mobiles"><img src="https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100" alt="mobiles"><h5>Mobiles</h5></span>
+      <span id="fashion"><img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100" alt="fashion"><h5>Fashion</h5></span>
+      <span id="electronics"><img src="https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100" alt="electronics"><h5>Electronics</h5></span>
+      <span id="hf"><img src="https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100" alt="home&furniture"><h5>Home & Furniture</h5></span>
+      <span id="appliances"><img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100" alt="appliances"><h5>Appliances</h5></span>
+      <span id="travel"><img src="https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100" alt="travel"><h5>Travel</h5></span>
+      <span id="btm"><img src="https://rukminim2.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100" alt="beauty,toys&more"><h5>Beauty,Toys & More</h5></span>
+      <span id="wheelers"><img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100 " alt=" two wheelers"><h5>Two Wheelers</h5></span>
+    </div>
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/352e6f0f8034fab5.jpg?q=20" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/aa1b2bdcf519b468.jpg?q=20" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/d666db78034ac39f.jpg?q=20" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/797fdfe502c0d207.jpeg?q=20" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/0e138e81b7c37406.jpg?q=20" style="width:100%">
+      </div>
+      <br>
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    <div class="electronics-section"><h3>Best of Electronics</h3>
+     <div class="box"><a href="https://www.flipkart.com/cameras/dslr-mirrorless/pr?sid=jek%2Cp31%2Ctrv&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.type%255B%255D%3DMirrorless&param=179&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJUb3AgTWlycm9ybGVzcyBDYW1lcmFzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&fm=neo%2Fmerchandising&iid=f2bff962-c44b-4b30-bedd-fe3a7da68939.Q5LU1U8PHMK6&ppt=dynamic&ppn=dynamic&ssid=jw2t3abdlc0000001707904767465&otracker=dynamic_omu_Best%252Bof%252BElectronics_12_Shop%2BNow%2521_Q5LU1U8PHMK6&cid=Q5LU1U8PHMK6"><img src="img/cam.png" alt="cam"></a>
+    <p>cameras</p><p>Shop Now</p>
+    </div>
+     <div class="box"><a href="https://www.flipkart.com/laptop-accessories/keyboards/pr?sid=6bo%2Cai3%2C3oe&sort=popularity&param=33&hpid=d971kH3yw0bIy1mjUhiVF6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTIyOSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlRLWUdRRjJES1pITVdYUkIiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJUb3AgU2VsbGluZyBEZWxsIEtleWJvYXJkIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D"><img src="img/keyboard.png" alt="keyboard"></a><p>Keyboard</p><p>from &#8377 299</p></div>
+     
+     <div class="box"><a href="https://www.flipkart.com/mobile-accessories/power-banks/~cs-zewisow11f/pr?sid=tyy%2C4mr%2Cfu6&collection-tab-name=Premium+PowerBanks&sort=price_asc&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlByZW1pdW0gUG93ZXJCYW5rcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D"><img src="img/powerbank.png" alt="powerbank"></a><p>Powerbank</p><p>Shop Now</p></div>
+     <div class="box"><a href="https://www.flipkart.com/computers/computer-peripherals/printers-inks/printers/pr?sid=6bo%2Ctia%2Cffn%2Ct64&fm=neo%2Fmerchandising&iid=M_2731d14e-2583-4664-a065-6fc7ea504a6d_2_372UD5BXDFYS_MC.ES1XN5J8PT49&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=ES1XN5J8PT49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DHP&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTM5OTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcmludGVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlBSTkRYSFpFNVI5SFVKSlkiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19"><img src="img/printer.png" alt="printer"></a><p>Printer</p><p>From &#8377 3999</p></div>
+     <div class="box"><a href="https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&fm=neo%2Fmerchandising&iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=7IRTITZ74DB6&hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlcyI6WyJTSFZGUkFHRVlUU1dHTTZaIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiQmVzdCBvZiBTaGF2ZXJzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&fm=neo%2Fmerchandising&iid=6595c3d4-9465-4681-b09e-bd38ad10bbdc.8JR5BM71BUKP&ppt=dynamic&ppn=dynamic&ssid=gqbymi96s00000001707904701035&otracker=dynamic_omu_Best%252Bof%252BElectronics_16_From%2B%25E2%2582%25B91%252C649_8JR5BM71BUKP&cid=8JR5BM71BUKP"><img src="img/shaver.png" alt="shaver"></a><p>Best Shaver</p><p>Shop Now</p></div>
+     <div class="box"><a href="https://www.flipkart.com/computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a11f_2_372UD5BXDFYS_MC.ECL5SFI77NSY&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=ECL5SFI77NSY&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3Dacer&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTY1OTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJNb25pdG9ycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik1PTkdIUVM0R1ozQVdHQlYiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19"><img src="img/monitor.png" alt="monitor"></a><p>Monitors</p><p>From &#8377 6599</p></div>
+    
+    
+    </div>
+    <div class="bftm-section"><h3>Beauty, Food, Toys& More </h3>
+    <div class="box1"><a href="https://www.flipkart.com/exercise-fitness/fitness-accessories/pr?sid=qoc%2Cacb&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&hpid=wXxDXjUDi0JocvmBiNvc9Kp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEzOSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkRCTEdIUDdUWldYOE5ORUIiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJHeW0gRXNzZW50aWFscyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D"><img src="img/excer_bikes.png" alt="excer_bikes"></a><p>Exercise Bikes</p><h4>
+      Up to 50% off
+    </h4></div>
+    <div class="box1"><a href="https://www.flipkart.com/musical-instruments/keys-synthesizers/musical-keyboards/pr?sid=ypu%2Cnvg%2Cxqg&p%5B%5D=facets.discount_range_v1%255B%255D%3D30%2525%2Bor%2Bmore&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&p%5B%5D=facets.discount_range_v1%255B%255D%3D20%2525%2Bor%2Bmore&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJ1cCB0byA3MCUgb2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTXVzaWNhbCBLZXlib2FyZHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJNS0RGR0RKWFpZTkQzUFNaIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&fm=neo%2Fmerchandising&iid=M_674012e1-7f2b-4dfa-b50b-a9de9f893f8e_1.U9SEHROSNPLH&ppt=hp&ppn=homepage&ssid=jnbi4jxw340000001707909156721&otracker=dynamic_omu_infinite_Beauty%252C%2BFood%252C%2BToys%2B%2526%2Bmore_7_1.dealCard.OMU_INFINITE_U9SEHROSNPLH&cid=U9SEHROSNPLH"><img src="img/music_instr.png" alt="music_instr"></a><p>Music Instruments</p><h4>
+      Up to 60% off
+    </h4></div>
+    <div class="box1"><a href="https://www.flipkart.com/sports/cycling/cycles/pr?sid=abc%2Culv%2Cixt&p%5B%5D=facets.tyre_size%255B%255D%3D27.5%2Binches&p%5B%5D=facets.tyre_size%255B%255D%3D28%2Binches&p%5B%5D=facets.tyre_size%255B%255D%3D29%2Binches&p%5B%5D=facets.brand%255B%255D%3DHERCULES&p%5B%5D=facets.brand%255B%255D%3DUrban%2BTerrain&p%5B%5D=facets.brand%255B%255D%3DHRX&p%5B%5D=facets.brand%255B%255D%3DLEADER&p%5B%5D=facets.brand%255B%255D%3DHERO&p%5B%5D=facets.brand%255B%255D%3DCRADIAC&p%5B%5D=facets.brand%255B%255D%3DAdrenex%2Bby%2BFlipkart&p%5B%5D=facets.brand%255B%255D%3DWALTX&p%5B%5D=facets.brand%255B%255D%3DVector%2B91&p%5B%5D=facets.brand%255B%255D%3DMontra&p%5B%5D=facets.brand%255B%255D%3DFIREFOX%2BBIKES&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&hpid=Lk-wso-VDfqk58fy3bl2IKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA3MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQ0NFRzZHRUVHTVVDSkdKTSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdlYXJlZCBDeWNsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19"><img src="img/g cycle.png" alt="g cycles"></a><p>Geared Cycles</p><h4>
+      Up to 50% off
+    </h4></div>
+    <div class="box1"><a href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_2596d14a-bc48-4a42-ad6b-6be6df7ec25b_1_372UD5BXDFYS_MC.RXB0XORLSZ1I&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Beauty%2B%2526%2BPersonal%2BCare_RXB0XORLSZ1I&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=RXB0XORLSZ1I"><img src="img/beauty.png" alt="beauty"></a><p>Beauty Products</p><h4>
+      Up to 40% off
+    </h4></div>
+    <div class="box1"><a href="https://www.flipkart.com/food-products/dry-fruit-nut-seed/pr?sid=eat%2Cltb&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=9552&hpid=KM6Pjnf8EGhpAF17AzVGxqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJOREZHQjdKNkdaRlZKREFGIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiRHJ5IEZydWl0cyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&fm=neo%2Fmerchandising&iid=M_342ff1a3-edbc-4881-a6df-c8ad13eb127c_1.J2Z73XTAD8UE&ppt=browse&ppn=browse&ssid=828utj91wg0000001707909159497&otracker=dynamic_omu_infinite_Beauty%252C%2BFood%252C%2BToys%2B%2526%2Bmore_10_1.dealCard.OMU_INFINITE_J2Z73XTAD8UE&cid=J2Z73XTAD8UE"><img src="img/almonds.png" alt="almonds"></a><p>Almonds</p><h4>
+      Up to 50% off
+    </h4></div>
+    <div class="box1"><a href="https://www.flipkart.com/toys/toy-vehicles/remote-control-toys/pr?sid=tng%2C56a%2Cfq8&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BPlus&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D300000000000&hpid=w0h50eB9gc7vXk_wfN2Za6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA4MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiUkNUR1RWR1hSS01GUURYMiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlJlbW90ZSBDb250cm9sIFRveXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19"><img src="img/remote_c_toys.png" alt="remote toys"></a><p>Remote Control Toys</p><h4>
+      Up to 60% off
+    </h4></div>
+    </div>
+    <div class="hkms-section"><h3>Home Decor, Dresses& More </h3>
+      <div class="box2"><a href="https://www.flipkart.com/clothing-and-accessories/pr?sid=clo&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys%2B%2526%2BBaby%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BGirls&otracker=nmenu_sub_Baby%20%26%20Kids_0_Kids%20Clothing"><img src="img/kids.png" alt="kids"></a><p>Kidsware</p><h4>Up To 40% Off</h4></div>
+      <div class="box2"><a href="https://www.flipkart.com/all/~cs-3bd49a8c44c9ba23a9d223ecf7511e45/pr?sid=clo,8on,zpd,9og&marketplace=FLIPKART&restrictLocale=true"><img src="img/sarees.png" alt="sarees"></a><p>Sarees</p><h4>Up To 50% Off</h4></div>
+      <div class="box2"><a href="https://www.flipkart.com/womens-footwear/~sports-casual-shoes/pr?sid=osp%2Ciko&p%5B%5D=facets.brand%255B%255D%3DKILLER&param=159&p%5B%5D=facets.brand%255B%255D%3DTOMMY%2BHILFIGER&p%5B%5D=facets.brand%255B%255D%3DFILA&p%5B%5D=facets.brand%255B%255D%3DREEBOK%2BCLASSICS&p%5B%5D=facets.brand%255B%255D%3DRoadster&p%5B%5D=facets.brand%255B%255D%3DNew%2BBalance&p%5B%5D=facets.brand%255B%255D%3DAsics&p%5B%5D=facets.brand%255B%255D%3DCultsport&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BORIGINALS&p%5B%5D=facets.brand%255B%255D%3DRED%2BTAPE&p%5B%5D=facets.brand%255B%255D%3DREEBOK&p%5B%5D=facets.brand%255B%255D%3DHRX%2Bby%2BHrithik%2BRoshan&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DNIKE&p%5B%5D=facets.brand%255B%255D%3DSkechers&p%5B%5D=facets.brand%255B%255D%3DBROOKS&p%5B%5D=facets.brand%255B%255D%3DALDO&p%5B%5D=facets.brand%255B%255D%3DPUMA&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&param=876&hpid=e-oRww-YWZQSY-y9hYmCV6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJNaW4uIDQwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJTSE9HU1o2OUVUS1dZWURYIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiUHVtYSwgQWRpZGFzIC4uLiJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D"><img src="img/h_decor.png" alt="h_decor"></a><p>Home Decors</p><h4>Up To 50% Off</h4></div>
+      <div class="box2"><a href="https://www.flipkart.com/all/~cs-6f5af2c6fd4068ce713d184f1481cd2b/pr?sid=osp,cil,1cu&marketplace=FLIPKART&restrictLocale=true"><img src="img/shoe.png" alt="shoe"></a><p>Shoe</p><h4>Up To 60% Off</h4></div>
+      <div class="box2"><a href="https://www.flipkart.com/clothing-and-accessories/~cs-bc8r4wmhmw/pr?sid=clo&collection-tab-name=Western+Wear&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sort=recency_desc&hpid=xDpEYw1DPemtz__8Xvk40qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJNaW4uIDYwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJEUkVHV1A0UVZWWkFSQVpRIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiVG9wcywgRHJlc3NlcywgSmVhbnMuLi4iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19"><img src="img/dresses.png" alt="dresses"></a><p>Dresses</p><h4>Up To 30% Off</h4></div>
+      <div class="box2"><a href="https://www.flipkart.com/all/~cs-86004154fcf314d6b1fd76aa52d2466b/pr?sid=mcr&marketplace=FLIPKART&restrictLocale=true"><img src="img/jewellery.png" alt="jewellery"></a><p>Jewellery</p><h4>Up To 40% Off</h4></div>
+
+    </div><!--health,sports and more-->
+    <div class="footer-above"><h3>Top Stories :Brand Directory</h3><p>MOST SEARCHED FOR ON FLIPKART: valentines day gifts valentines gifts for her | valentines gifts for him| valentines gifts for boyfriend valentines gifts for girlfriend Fresh Flower Delivery | iPhone 15 iPhone 15 Plus iPhone 15 Pro | iPhone 15 Pro Max | Vivo x 100 Spoyl Store SAMSUNG FlipS | SAMSUNG Fold5 | Flipkart Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 Grievance Redressal OPPO Reno7 Pro 5G | IPhone 13 Help Centre Track Orders Manage Orders | Return
+      Orders Gift Cards Store | Flipkart Axis Bank Credit Card Pay Later MOBILES Samsung Galaxy S24 50 | Samsung Galaxy S24+50 | iPhone 12 6408 | Phone 12 Pro 51208 | iPhone 12 128GB | Vivo
+      Y15 SAMSUNG Galaxy S21 FE 5G | Infinix HOT 301 Realme 10 Pro 5G MOTOROLA 062 5G | Nothing Phone REDMI Note 12 Pro 5G | Infinix SMART 7 | Vivo Y12 | Oppo A12 | Motorola 5g Phone | Realme 5g Smartphone | Apple 5g Phone | Iqoo 5g Phones | Oneplus 5g Phones Vivo 5g Phones | Oppo 5g Smart Phones Oppo F15 Oppo A31 | Samsung A71 Samsung A51 Samsung A31 iPhone 11 iPhone
+      11 Pro 4G Mobile | Nokia Mobile | Samsung Mobile | iphone Oppo Mobile Vivo Mobile
+      CAMERA GoPro Action Camera Nikon Camera Canon Camera Sony Camera Canon DSLR Nikon DSLR
+      LAPTOPS Asus ROG Ally MacBook Pro M2 Premium Laptop ASUS ROG Strix SCAR 16 (2023) Core 19 13th Gen | ASUS ROG Zephyrus
+      M16 (2023) Cure 19 13th Gen | ASUS Zenbook 14 OLED (2022) | Realme Book Prime Core i5 11th Gen Microsoft Surface Gu Pentium 128GB Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops Asus Laptops | HP Laptops | Gaming Laptops 2 in 1 Laptops | Laptops | Dell latest laptops 2022 HP latest laptops 2022 Infinix INBook Y1 Plus SAMSUNG Galaxy Book3| 12th Gen Intel Core Laptops
+      TVS Nokia TV Panasonic TV | Thomson TV | MiX Pro | Realme TV| Motorola TV | OnePlus TVs | LG TV | TV | Sony TV | Samsung TV Android Television Iffalcon Tv Mi TV
+      LARGE APPLIANCES: Television | Washing Machines Refrigerators | Air Conditioners | Electric Cookers Electric Jug(Heater) / Travel Kettles | Induction Cooktops | Inverters/stabilizer Irons/Iron Box Mixer Grinder Juicer | Wet Grinders Chimneys | Microwave
+      Ovens Vacuum Cleaners | Water Purifier | Fan
+      CLOTHING Green bridal lehenga | Tops | Shoes Sunglasses Bridal Blouse Half saree blouse designs | Designer blouses Blouse blouse designs | Tshirts Jeans Sarees Dresses One pieces Groom wedding sherwani Designer Salwar
+      designs | Shirts | Cotton saree Suits | Bra | Cotton simple blouse designs | Banarasi saree blouse designs Stylish blouse astin design | Track Pant Blouse neck designs | Men Kurtas | Party Dresses | Palazzo Suits | Anarkali | Gowns | Cut out dress | Salwar Suits Kurtis | Designer
+      Sarees Leggings Shorts Georgette Sarees | Ethnic Wear uppada pattu sarees | Blouse back design | Jodhpur pants</p></div>
+      <div class="footer-above1"><h3>Flipkart: The One-stop Shopping Destination</h3>
+        E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACS, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commer ever shuts down.
+        What's more, with our year round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.
+        <h4>Flipkart Plus</h4>
+        A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!
+        What's more, you can even use the Flipkart supercoins for a number of exciting services, like:
+        An annual Zomato Gold membership
+        An annual Hotstar Premium membership
+        6 months Gaana plus subscription
+        Rupees 550 instant discount on flights on ixiga
+        Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.
+        <h4>No Cost EMI</h4>
+        In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.</div>
+    <div class="footer-above2">
+     <div class="heading-above2"><h4 id="about"> ABOUT</h4><h4 id="grp">GROUP COMPANIES</h4><h4 id="help">HELP</h4>x<h4 id="consumer">CONSUMER POLICY</h4><h4 id="mail">Mail Us:</h4><h4 id="reg">Registered Office Address:</h4></div>
+     <div class="head">
+<div id="about-desc"><span>Contact Us</span>
+<span>About Us</span><span>Careers</span>
+<span>Flipkart Stories</span>
+<span>Press</span>
+<span>Corporate Information</span></div>
+<div id="grp-desc"><span>Myntra</span>
+  <span>Flipkart Wholesale</span>
+  <span>Cleartrip</span>
+  </span>Shopsy</span></div>
+  <div id="help-desc"><span>Payments</span>
+<span>Shipping</span>
+<span>Cancellation & Returns</span>
+<span>FAQ</span>
+<span>Report Infringement</span></div>
+<div id="consumer-desc">
+<span>Cancellation & Returns</span>
+<span>Terms Of Use</span>
+<span>Security Privacy</span>
+<span>Sitemap</span>
+<span>Grievance Redressal</span>
+<span>EPR Compliance</span></div>
+<div id="mail-desc">
+<span>Flipkart Internet Private Limited,</span>
+<span>Buildings Alyssa, Begonia &</span>
+<span>Clove Embassy Tech Village,</span>
+<span>Flipkart Internet Private Limited,</span>
+<span>Buildings Alyssa, Begonia &</span>
+<span>Clove Embassy Tech Vilage,</span><span>Outer Ring Road, Devarabeesanahalli Village,</span> <span>Bengaluru, 560103,</span> <span>Karnataka, India</span></div>
+<div id="reg-desc">
+<span>Flipkart Internet Private Limited,</span>
+<span>Buildings Alyssa, Begonia &</span>
+<span>Clove Embassy Tech Vilage,</span><span>Outer Ring Road, Devarabeesanahalli Village,</span> <span>Bengaluru, 560103,</span> 
+<span>Karnataka, India</span>
+<span>Karnataka, India</span>
+<span>CIN: U51109KA2012PTC066107</span>
+<span>Telephone: 044-45614700</span></div></div>
+    </div>
+    <div class="footer"><h4><a href="">Become a seller</a></h4>
+    <h4><a href="">Advertise</a></h4>
+    <h4><a href="">Gift Cards</a></h4>
+    <h4><a href="">Help center</a></h4>
+    <h4><a href="">&copy 2007-2024 Flipkart.com</a></h4></div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+</body>
+<!--  
+sign in    https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg-->
